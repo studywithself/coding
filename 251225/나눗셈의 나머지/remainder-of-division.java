@@ -10,14 +10,9 @@ public class Main {
         }
 
         int[] count = new int[10];
-        for(int j=0; j<100; j++) {
-            if (arr[0]/arr[1] == 0) {
-                count[arr[0]%arr[1]]++;
-                break;
-            } else {
-                count[arr[0]%arr[1]]++;
-                arr[0] = arr[0]/arr[1];
-            }           
+        while (arr[0] > 1) {
+            count[arr[0] % arr[1]]++;
+            arr[0] = arr[0] / arr[1];        
         }
 
         int sum = 0;
