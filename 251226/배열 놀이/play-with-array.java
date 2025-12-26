@@ -27,15 +27,23 @@ public class Main {
             else if (question[j] == 2) {
                 int b = 0;
                 int count = 1;
+                int position = -1;
                 b = sc.nextInt();
                 for (int k=0; k<N; k++) {
-                    if(arr[k] != b) {
-                        count++;
-                    } else {
+                    if(arr[k] == b) {
+                        position = k;
                         break;
+                    } else {
+                        count++;
                     }
                 }
-                System.out.println(count);
+
+                if (position == -1) {
+                    System.out.println("0");
+                } else {
+                    System.out.println(count);
+                }
+                
             } 
             
             else if (question[j] == 3) {
