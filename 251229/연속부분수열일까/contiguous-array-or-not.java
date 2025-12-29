@@ -16,7 +16,7 @@ public class Main {
         for (int l=0; l<N1; l++) { A[l] = sc.nextInt(); }
         for (int m=0; m<N2; m++) { B[m] = sc.nextInt(); }
 
-        for (int i=0; i<N1-N2; i++) {
+        for (int i=0; i<= N1-N2; i++) {
             int count = 0;
             for (int k=0; k<N2; k++) {
                 if(A[i+k] == B[k]) count++;
