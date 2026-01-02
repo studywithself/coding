@@ -25,8 +25,8 @@ public class Main {
         int upper_max = upper_arr[0];
 
         for (int q=0; q<up; q++) {
-            if (under_max > under_arr[q]) {
-                under_max = under_arr[q];
+            if (upper_max > upper_arr[q]) {
+                upper_max = upper_arr[q];
             }
         }
 
