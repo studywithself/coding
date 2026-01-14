@@ -9,7 +9,7 @@ public class Main {
         int[][] arr = new int[N][N];
 
         int count = 0;
-        for (int i=0; i<N; i++) {
+        for (int i=0; i<M; i++) {
             int A = sc.nextInt();
             int B = sc.nextInt();
             count = A * B;
