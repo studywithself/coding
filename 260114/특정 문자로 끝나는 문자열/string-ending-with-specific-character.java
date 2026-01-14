@@ -18,9 +18,11 @@ public class Main {
                 count++;
             } 
             
-            if(count == -1) {
+            
+        }
+
+        if(count == -1) {
                 System.out.println("None");
             }
-        }
     }
 }
