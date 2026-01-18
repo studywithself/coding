@@ -38,11 +38,7 @@ public class Main {
                 break;
             }
 
-            for (int j=0; j<arr.length; j++) {
-                    result += arr[j];
-                }
-
-            System.out.println(result);
+            System.out.println(String.valueOf(arr));
         }
     }
 }
