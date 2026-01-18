@@ -6,6 +6,6 @@ public class Main {
 
         String input = sc.next();
 
-        System.out.print(input.substring(0,2) + input.substring(3, input.length()-2) + input.substring(input.length()-1));
+        System.out.print(input.substring(0,1) + input.substring(2, input.length()-2) + input.substring(input.length()-1));
     }
 }
