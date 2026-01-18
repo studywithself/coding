@@ -10,7 +10,7 @@ public class Main {
         for (int i=0; i<input.length() - 1; i++) {
             int position = sc.nextInt();
 
-            if (input.length() > position) {
+            if (result.length() > position) {
                 result = result.substring(0, position) + result.substring(position + 1);
                 System.out.println(result);
             } else {
